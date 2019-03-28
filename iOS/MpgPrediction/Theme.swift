@@ -18,10 +18,6 @@ class Theme {
     static let activityIndicatorBackgroundGray = UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 0.3)
     static let activityIndicatorGray = UIColor(red: 68.0/255.0, green: 68.0/255.0, blue: 68.0/255.0, alpha: 0.7)
     
-    //0.99609375
-    
-
-    
     static func applyNavigationBarTheme(navBar: UINavigationBar) {
         navBar.titleTextAttributes =
             [NSAttributedString.Key.foregroundColor: UIColor.white,
